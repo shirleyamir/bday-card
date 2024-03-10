@@ -1,0 +1,60 @@
+/* Tablet & Desktop view */
+#card{
+    background-color: #addfff;
+    color: #004E7E;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    width: 600px;
+    height: 350px;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h3{
+    margin: 0;
+}
+
+button{
+    background-color: #0064A2;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 10px;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+/* mobile view */
+@media only screen and (max-width: 600px) {
+    body{
+        margin-top: 25px;
+    }
+
+    #card{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 60px 20px;
+        font-size: 25px;
+        height: 500px;
+    }
+
+    button{
+         font-size: 17px;
+    }
+}
